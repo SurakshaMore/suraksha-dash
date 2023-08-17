@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="loginindex.css">
+         
+    <title>Login & Registration Form</title> 
+</head>
+<body>
+    <!-- main Container -->
+    <div class="container">
+    <!-- Login Form -->
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+                <p>Wellcome Back!</p>
+    
+                <!-- Input or text area -->
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your Email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter your Password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="fpass">
+                        <a href="#" class="text">Forgot password?</a>
+                    </div>
+
+                    <!-- Login button -->
+                    <div class="input-field button">
+                        <input type="button" value="Login">
+                    </div>
+                </form>
+
+                <!-- Register page link -->
+                <div class="login-signup">
+                    <span class="text">Are you new ?, Register here..
+                        <a href="#" class="text signup-link">Register</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <a href="http://"><p id="hname">ClinicFlow</p></a>
+
+                <span class="title">Registration form</span>
+
+                <!-- Input or text area -->
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your name" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your Phone number" required>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div id="gender3" class="field3">
+                        <select name="gender">
+                          <option value="">Select Gender</option>
+                          <option value="female">Male</option>
+                          <option value="male">Female</option>
+                          <option value="other">Other</option>
+                        </select>
+                        <i class="uil uil-user"></i>
+                      </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <!-- Register button -->
+                    <div class="input-field button">
+                        <input type="button" value="Register">
+                    </div>
+                </form>
+
+                <!-- Login page link -->
+                <div class="login-signup">
+                    <span class="text">Already have an account?
+                        <a href="#" class="text login-link">Login</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+     <script src="loginindex.js"></script> 
+</body>
+</html>

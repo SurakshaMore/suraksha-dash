@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Book Appoitments doctors" />
+    <meta name="description" content />
+    <script
+      src="https://kit.fontawesome.com/5bd9d0ce45.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Appointments</title>
+    <link rel="stylesheet" href="appointindex.css" />
+  </head>
+  <body>
+    <!-- Header  -->
+
+    <header style="background-color: black; color: white">
+      Header Section
+    </header>
+
+    <!-- Doctors profiles -->
+
+    <div class="dprofiles2 container">
+      <div class="dhead2">
+        <div class="profimg2">
+          <img src="allImg/doct.png" alt="DOCTOR PROFILE" />
+        </div>
+        <div class="desc2">
+          <h3>Dr.Shubh Kumar</h3>
+          <span>General Surgeon | 11 Years Exp.</span>
+          <span
+            ><i class="fa-solid fa-language"></i> &nbsp; English, Hindi,
+            Marathi</span
+          >
+        </div>
+      </div>
+
+      <!-- profo1 -->
+
+      <div class="prof2">
+        <div class="details2">
+          <h3>Dr.Shubh Kumar</h3>
+          <h5>General Surgeon</h5>
+          <span>MBBS, MS - General Surgery</span>
+          <span
+            ><i class="fa-solid fa-money-bill"></i>&nbsp; ₹ 150 at clinic</span
+          >
+          <span>
+            <i class="fa-solid fa-location-dot fa-flip"></i> &nbsp; Shubh Care
+            Clinic, South Delhi, Delhi , Delhi</span
+          >
+          <p>
+            <i class="fa-solid fa-calendar-days"></i> Available today
+            :&nbsp;<span>Afternoon</span>
+          </p>
+        </div>
+        <div class="d-btn2">
+          <!-- footer link to add here  -->
+          <a href="#footer">
+            <button type="button" class="connect2 call-btn2">
+              <span class>Call Doctor</span>
+            </button>
+          </a>
+
+          <button type="button" class="connect2 appo-btn2" id="myBtn">
+            Book Appointment
+          </button>
+
+          <!-- modal section start appointment  -->
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h1>Book Appointment <span>Now</span></h1>
+                <h3>Consult and Book appointments with doctors</h3>
+              </div>
+              <div class="modal-body">
+                <label for="name"> <h5>Name</h5> </label>
+                <input type="text" placeholder="Your Name" id="name" />
+                <label for="phone-number"> <h5>Phone</h5> </label>
+                <input
+                  type="number"
+                  placeholder="Mobile Number"
+                  id="phone-number"
+                />
+                <label for="date"> <h5>Date & Time</h5> </label>
+                <input type="datetime-local" placeholder="Date" id="date" />
+                <label for="disease-name"> <h5>Disease</h5> </label>
+                <input
+                  type="text"
+                  placeholder="Disease Name"
+                  id="disease-name"
+                />
+                <label for="disease-d"> <h5>Disease Discription</h5> </label>
+                <textarea
+                  placeholder="Disease Discription"
+                  id="disease-d"
+                ></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="appo-submit" id>
+                  Book Appointment
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  doctors profile section end  -->
+
+    <!-- Help Form -->
+    <div class="helpform2">
+      <!-- form head  -->
+      <a href="#hform_name">
+        <div class="formhead2 fhead2">
+          <h1><span>FREE Consultation</span> for Patients</h1>
+          <p>If anyone wants Free Consultation can Contact</p>
+          <img src="allImg/doctor-serve2.gif" alt="Ask Your Doubt" />
+        </div>
+      </a>
+
+      <!-- form box  -->
+
+      <div class="help2" id="consultation-form">
+        <div class="hform2">
+          <h1>Need more help</h1>
+          <h3>Book a FREE Consultation Now</h3>
+        </div>
+        <div class="hform2">
+          <label for="hform_name"> <h5>Name</h5> </label>
+          <input type="text" placeholder="Patient Name" id="hform_name" />
+        </div>
+        <div class="hform2">
+          <label for="hform_number"> <h5>Phone</h5> </label>
+
+          <input type="number" placeholder="Mobile Number" id="hform_number" />
+        </div>
+        <div class="hform2">
+          <label for="hform_city"><h5>City</h5> </label>
+          <input type="text" placeholder="Enter City" id="hform_city" />
+        </div>
+        <div class="hform2">
+          <label for="hform_Disease"><h5>Disease</h5> </label>
+          <input type="text" placeholder="Enter Disease" id="hform_Disease" />
+        </div>
+        <div class="hform2 helpbtn2">
+          <a href>
+            <button type="submit">Get Help Now</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div style="background-color: black; color: white">Footer section</div>
+    </footer>
+
+    <script src="appointindex.js"></script>
+  </body>
+</html>

@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Ysabeau Infant", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  color: black;
+  width: 100vw;
+}
+
+.dprofiles2 {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  /* margin: 10px; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  background: rgb(225, 225, 234);
+  background: linear-gradient(
+    90deg,
+    rgba(225, 225, 234, 1) 0%,
+    rgba(23, 207, 244, 1) 30%
+  );
+  margin: 0px;
+}
+
+.dhead2 {
+  width: 100vw;
+  height: 30vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  margin-top: 11px;
+}
+
+.profimg2 img {
+  border-radius: 50%;
+  border: 6px solid gold;
+  height: 200px;
+  width: 200px;
+}
+
+.profimg2 {
+  border: 2px solid
+    linear-gradient(90deg, rgba(225, 225, 234, 1) 0%, rgba(238, 252, 255, 1) 2%);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* margin: auto; */
+}
+
+.desc2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+}
+
+.desc2 h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.prof2 {
+  width: 50vw;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid rgb(25, 25, 25);
+  border-radius: 12px;
+  margin: 100px;
+  z-index: 99;
+}
+.prof2:hover {
+  cursor: pointer;
+  /* transform:translateX(-4px); */
+  border: 3px solid black;
+  background: rgb(225, 225, 234);
+  background: linear-gradient(
+    90deg,
+    rgba(225, 225, 234, 1) 0%,
+    rgba(23, 207, 244, 1) 30%
+  );
+}
+
+.details2 {
+  width: 100%;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.details2 h3 {
+  color: brown;
+  padding-bottom: 8px;
+  font-weight: bold;
+  font-size: large;
+}
+.details2 h5 {
+  color: rgb(0, 0, 0);
+  font-size: medium;
+}
+.details2 span {
+  color: rgb(79, 78, 78);
+}
+.details2 P {
+  color: green;
+  font-weight: bold;
+  gap: 6px;
+}
+.details2 P span {
+  color: none;
+  gap: 4px;
+}
+.d-btn2 {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  flex-wrap: wrap;
+}
+.connect2 {
+  padding: 11px 111px;
+  /* border: 3px solid rgb(17, 200, 4); */
+  border-radius: 9px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  border: 3px solid rgb(247, 239, 236);
+  background-color: rgb(247, 116, 68);
+  cursor: pointer;
+}
+
+.connect2:hover {
+  transform: translateX(4px);
+  /* background-color: rgb(6, 207, 6); */
+  color: white;
+  background-color: rgb(169, 47, 2);
+  border: 2px solid rgb(169, 47, 2);
+}
+/* profile section end  */
+
+/* help form start  */
+
+.helpform2 {
+  width: 100vw;
+  margin: 0;
+  height: 100vh;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+/* form head  */
+.formhead2 {
+  width: 50vw;
+  height: 100vh;
+  text-align: left;
+  font-weight: bold;
+  flex-wrap: wrap;
+  padding: 55px;
+  margin-right: 50vw;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.fhead2 {
+  margin: 50px;
+  top: 100px;
+  padding-top: 100px;
+  /* border: 4px solid rgb(212, 3, 3); */
+  border-radius: 12px;
+  background-color: rgb(188, 248, 225);
+  margin-bottom: -22px;
+  max-height: 90vh;
+}
+.fhead2:hover {
+  transform: translateX(4px) translateY(4px);
+  background-color: bisque;
+}
+.formhead2 span {
+  color: brown;
+}
+.formhead2 p {
+  color: rgb(0, 150, 93);
+}
+.fhead2 img {
+  width: 30vw;
+  height: auto;
+  align-items: center;
+  margin: 11px;
+  padding: 22px;
+  line-height: 23px;
+  border: 8px solid white;
+  border-radius: 8px;
+}
+
+/* form box  */
+
+.help2 {
+  width: 500px;
+  height: auto;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  border: 2px solid rgb(230, 183, 183);
+  align-items: center;
+  padding: 11px;
+  border-radius: 12px;
+  border: 5px solid rgb(238, 174, 202);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.hform2 {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hform2 h1 {
+  color: brown;
+  padding: 6px;
+}
+
+.hform2 h5 {
+  font-weight: bold;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.hform2 input {
+  padding: 11px 22px;
+  border-radius: 7px;
+  background: #f6e0c5;
+  border: 3px solid black;
+}
+.hform2 button {
+  padding: 10px 12px;
+  border-radius: 9px;
+  background-color: orangered;
+  border: 2px solid orangered;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.hform2 button:hover {
+  background-color: rgb(170, 50, 6);
+  border-color: rgb(170, 50, 6);
+  color: white;
+}
+.helpbtn2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 2000px) and (min-width: 750px) {
+  .container {
+    width: 100vw;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  .container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .prof2 {
+    width: 100vw;
+    margin: 0px;
+    margin-top: 88px;
+  }
+
+  .d-btn2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .connect2 {
+    max-width: 20vw;
+  }
+
+  .helpform2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 11px;
+    width: 100vw;
+    height: auto;
+  }
+
+  .fhead2 {
+    height: 70vh;
+    width: 100vw;
+    margin: 2px;
+  }
+
+  .fhead2 img {
+    margin: 11px;
+    margin-top: 77px;
+    width: 80vw;
+  }
+
+  .hform2 input {
+    width: 4px 5px;
+    padding-right: 4px;
+  }
+  .help2 {
+    /* display: flex; */
+    width: 100vw;
+    height: auto;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .prof2 {
+    width: 100vw;
+    margin: 0px;
+    margin-top: 88px;
+  }
+}
+
+
+/* CODE WRITTEN IN HTML */
+/* modal section start  */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+
+  align-items: center;
+}
+
+/* The Close Button */
+.close {
+  color: #0f0f0f;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  right: 33px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  color: white;
+  padding: 33px;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 2px 16px;
+  padding: 4px;
+  color: black;
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 11px 16px;
+  padding-bottom: 33px;
+  color: white;
+  margin-bottom: 11px;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+
+  align-items: center;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal-body input {
+  padding: 6px 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-right: 111px;
+}
+.modal-body textarea {
+  padding: 11px 33px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-right: 111px;
+}
+.modal-body h5 {
+  margin: 8px;
+  padding: 5px;
+}
+
+.appo-submit {
+  padding: 8px 33px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid orangered;
+  background-color: orangered;
+  margin: 4px;
+  cursor: pointer;
+}
+.appo-submit:hover {
+  background-color: rgb(169, 47, 2);
+  border: 2px solid rgb(169, 47, 2);
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 227, 233, 1) 100%
+  );
+}
+.modal-header h1 {
+  font-weight: bold;
+  color: orangered;
+  margin: 4px;
+  padding: 7px;
+}
+
+.modal-header h1 > span {
+  color: white;
+}
+
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  .modal-content {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .modal-content {
+    width: 100vw;
+  }
+}

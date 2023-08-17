@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  /* font-family:'Ysabeau Infant', sans-serif; */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+section,
+p,
+h2,
+li {
+  /* font-family: 'Ysabeau Infant', sans-serif; */
+  font-family: Arial, sans-serif;
+}
+/* DR PROFILE CONTAINER */
+/* header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: fill;
+  margin-bottom: 10px;
+}
+.video-call-button4 {
+    display: inline-block;
+    background-color: #053b75;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  } */
+
+  header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the doctor's image */
+  header img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the video call button */
+  .video-call-button4 {
+    display: inline-block;
+    background-color: #053b75;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .video-call-button4:hover {
+    background-color: #032a4d;
+  }
+
+
+  
+
+
+.profile4 {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info4 h2 {
+  color: black;
+}
+
+section h2,
+li,
+p {
+  font-weight: 500;
+}
+
+.qualifications4 ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+
+
+.video-call-button4:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.doctor-symbol4 img {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+}
+
+.experience-heading4 {
+  font-weight: 550;
+}
