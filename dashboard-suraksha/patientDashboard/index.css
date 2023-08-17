@@ -1,0 +1,240 @@
+.body {
+  font-family: Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* PATIENT LIST PAGE */
+
+.container1 {
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #8db4c7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  margin-bottom: 40px;
+}
+.page-title {
+  text-align: center;
+  margin-top: 20px;
+}
+.patients-row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.patientContainer1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 42%;
+  gap: 5;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.patientContainer1:hover {
+  transform: scale(1.02);
+}
+.patient-name1 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+  padding: 2px;
+}
+
+.patient-contact1,
+.patient-history1 {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+  padding: 2px;
+}
+
+.view-details1 {
+  font-size: 14px;
+  color: #05a7f7;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.view-details1:hover {
+  text-decoration: underline;
+}
+.patientInfo1 {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.button-container1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.confirm-button1,
+.cancel-button1 {
+  height: 40px;
+  padding: 5px 10px;
+  background-color: #008000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.confirm-button1:hover {
+  transform: translateY(-10px);
+}
+
+.cancel-button1 {
+  background-color: #ff0000;
+}
+.cancel-button1:hover {
+  transform: translateY(-10px);
+}
+@media (max-width: 768px) {
+  .patientContainer1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+
+/* VIEW DETAIL */
+
+* {
+  margin: 0;
+  padding: 7px;
+}
+.eachDetail1 {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #8db4c7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.patient-info {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.medical-history h3,
+.previous-appointments h2 {
+  margin-top: 20px;
+  /* border-bottom: 1px solid #ccc; */
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.medicalHistory1 {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.medical-history ul {
+  margin-left: 5px;
+  padding-left: 10px;
+  display: inline-block;
+}
+.previous-appointments {
+  padding-left: 20px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.appointment {
+  margin: 0;
+  padding-left: 10px;
+}
+.medical-history {
+  padding-left: 20px;
+}
+.meducalHistortTitle1 {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 27px;
+}
+.subtitle1 {
+  font-weight: 600;
+}
+.patientImg1 {
+  width: 110px;
+  height: 130px;
+}
+.patientDetailTitle1 {
+  text-align: center;
+}
+.detailSubheading1 {
+  margin-top: 10px;
+  display: inline-flex;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.detailSubheading1 h3 {
+  margin-bottom: 5px;
+  margin-right: 10px; /* Add spacing between heading and list */
+  white-space: nowrap;
+  text-decoration: none;
+  margin-bottom: 0;
+  align-items: center;
+}
+.detailSubheading1 ul {
+  padding-left: 10px;
+  margin-top: 5px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow list items to wrap when needed */
+  gap: 10px;
+}
+.detailSubheading1 li {
+  background-color: #fff; /* To improve readability */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.confirmed1 {
+  color: green;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+}
+.canceled1 {
+  color: red;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+}
